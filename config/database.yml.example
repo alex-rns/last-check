@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: last_check_production
-  username: deployer
+  username: last_check
   password: <%= ENV["LAST_CHECK_DATABASE_PASSWORD"] %>
